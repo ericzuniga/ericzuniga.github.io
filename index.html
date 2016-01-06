@@ -2,29 +2,82 @@
 <html>
 <head>
 	<title>Eric Zuniga | Developer / Engineer</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<!-- Optimized for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 	<!-- Compiled and minified CSS -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
-  	<!-- Compiled and minified JavaScript -->
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  	<!-- Materialize CSS -->
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<!-- Custom Stylesheet -->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  	<!-- Materialize icon set -->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-	<div>
+	<div class="navbar-fixed">
 		<nav>
+			<!-- Navigation Bar -->
 			<div class="nav-wrapper red">
-				<a href="#!" class="brand-logo">Eric Zuniga</a>
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<a href="#!" class="brand-logo center">Eric Zuniga</a>
+				<ul class="right hide-on-med-and-down">
 					<li>
-						<a href="http://www.github.com/ericzuniga">GitHub</a>
+						<a href="#about">About</a>
 					</li>
 					<li>
-						<a href="https://www.linkedin.com/in/ericzuniga24">LinkedIn</a>
+						<a href="#education">Education</a>
+					</li>
+					<li>
+						<a href="#projects">Projects</a>
+					</li>
+					<li>
+						<a href="#resume">Resume</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
 					</li>
 				</ul>
-			<div>
-		</nav>
-		
+			<!-- Mobile Hamburger Menu -->
+				<a href="#" data-activates="mobile" class="button-collapse">
+					<i class="material-icons">menu</i>
+				</a>
+				<ul id="mobile" class="side-nav">
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#education">Education</a>
+					</li>
+					<li>
+						<a href="#projects">Projects</a>
+					</li>
+					<li>
+						<a href="#resume">Resume</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>	
 	</div>
 	<h3>Full Stack Developer | Mechanical Engineer</h3>
-
+<!--jQuery-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+		// Sliders
+			$('.slider').slider({
+				full_width: false,
+				interval:2500,
+				transition:800,
+			});
+		// ScrollFire
+		});
+	</script>
+<!--Materialize JS-->
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+<!--jQuery Plugin Initialization-->
+	<script src="js/init.js"></script>
 </body>
 </html>
