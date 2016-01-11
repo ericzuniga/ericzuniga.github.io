@@ -13,4 +13,8 @@
     background-size:100% auto;
     background-repeat: no-repeat;
     background-color: white;
+    background-position: top;
+}
+.button_red {
+	background-color: #A60000;
 }
