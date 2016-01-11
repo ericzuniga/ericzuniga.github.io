@@ -6,3 +6,11 @@
 	height:50px;
 	width: 50px;
 }
+.project_img {
+
+}
+.slider .slides li img {
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-color: white;
+}
