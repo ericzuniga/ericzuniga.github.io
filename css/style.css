@@ -1,0 +1,21 @@
+#profile {
+	height: 200px;
+	width: 200px;
+}
+.contact_icon {
+	height:40px;
+	width: 40px;
+	padding-top: 7px;
+}
+.project_img {
+
+}
+.slider .slides li img {
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: top;
+}
+.button_red {
+	background-color: #A60000;
+}
